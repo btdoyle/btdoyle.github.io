@@ -5,8 +5,8 @@ html {
   min-height: 100%;
 }
 body {
-  /* Margin bottom by footer height */
   font-family: 'Roboto', sans-serif;
+  /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
 .footer {
@@ -29,6 +29,10 @@ body > .container {
 .container .text-muted {
   margin: 20px 0;
 }
+
+.navbar-default {
+  background-color: #e74c3c;
+  border-color: #c0392b;
 
 .footer > .container {
   padding-right: 15px;
