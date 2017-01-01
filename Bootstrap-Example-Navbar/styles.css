@@ -29,16 +29,35 @@ body > .container {
 .container .text-muted {
   margin: 20px 0;
 }
-
+/*
 .navbar-default {
   background-color: #ffffff;
   border-color: #dcdcdc;
 }
-.navbar-left>img {
+.navbar-left > img {
+  max-height: 100%;
   height: 100%;
-  max-height: 20px;
-  padding: 15px; /* firefox bug fix */
   width: auto;
+  margin: 0 auto;
+
+
+probably not needed anymore, but doesn't hurt
+  -o-object-fit: contain;
+  object-fit: contain;
+
+}
+
+*/
+
+.navbar-brand>img {
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+  margin-top: -15px;
+}
+
+.navbar-header {
+  height: auto;
 }
 
 .footer > .container {
